@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "6702ab481f23be515ec9c7df"
+  },
+  "interview_id": 7001,
+  "student_id": 4001,
+  "job_id": 5001,
+  "interview_date": "2024-10-10",
+  "interview_mode": "Online",
+  "result": "Pending"
+},
+{
+  "_id": {
+    "$oid": "6702ab901f23be515ec9c7e2"
+  },
+  "interview_id": 7002,
+  "student_id": 4002,
+  "job_id": 5003,
+  "interview_date": "2024-09-20",
+  "interview_mode": "In-person",
+  "result": "Passed"
+},
+{
+  "_id": {
+    "$oid": "6702aba71f23be515ec9c7e3"
+  },
+  "interview_id": 7003,
+  "student_id": 4003,
+  "job_id": 5001,
+  "interview_date": "2024-10-12",
+  "interview_mode": "Online",
+  "result": "Failed"
+}]

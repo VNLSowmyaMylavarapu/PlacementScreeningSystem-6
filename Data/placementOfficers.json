@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "66eba9c5eaf883cf3a6312e7"
+  },
+  "officer_id": "O001",
+  "name": "Dr. Samuel Lewis",
+  "email": "samuel.lewis@university.edu",
+  "phone_number": "+1222333444",
+  "department": "Placement Cell"
+},
+{
+  "_id": {
+    "$oid": "66eba9e7eaf883cf3a6312e9"
+  },
+  "officer_id": "O002",
+  "name": "Ms. Rachel Green",
+  "email": "rachel.green@university.edu",
+  "phone_number": "+1444555666",
+  "department": "CSE"
+}]

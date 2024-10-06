@@ -1,0 +1,89 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Landing Page
+    // Font Awesome CDN for social media icons
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css")
+    link(rel="stylesheet", href="./css/style.css") // Updated path to style.css
+  body
+    // Header
+    header
+      h1 Placement Screening System
+      nav
+        ul(style="list-style-type: none; padding: 0; margin: 10px 0 0 0; display: flex; justify-content: center;")
+          li(style="margin: 0 15px;")
+            a(href="./index.html", style="color: white; text-decoration: none; font-size: 18px;") Home
+          li(style="margin: 0 15px;")
+            a(href="./about.html", style="color: white; text-decoration: none; font-size: 18px;") About
+          li(style="margin: 0 15px;")
+            a(href="./dashboard.html", style="color: white; text-decoration: none; font-size: 18px;") Dashboard
+          li(style="margin: 0 15px;")
+            a(href="./contact.html", style="color: white; text-decoration: none; font-size: 18px;") Contact
+          li(style="margin: 0 15px;")
+            a(href="./login.html", style="color: white; text-decoration: none; font-size: 18px;")
+              i.fas.fa-sign-in-alt Login
+          li.dropdown(style="margin: 0 15px;")
+            a(href="#", class="dropbtn") Register
+            .dropdown-content
+              a(href="./company-registration.html") Company Registration
+              a(href="./student-registration.html") Student Registration
+
+    // Welcome Section
+    section
+      h1 Welcome to our Placement Screening System
+      p We simplify the recruitment process for educational institutions and organizations. Our user-friendly platform streamlines application management, facilitates skill assessments, and automates interview scheduling, ensuring a seamless experience for both candidates and recruiters.
+
+    // Top Companies Section
+    section.top-companies
+      h3 Top Companies Hiring Now
+      div.scroll-button.left &lt;
+      div.companies-container
+        div.company-category
+          h3 MNCs
+          p 1000+ Jobs
+          div.company-logos
+        div.company-category
+          h3 Product
+          p 800+ Jobs
+          div.company-logos
+        div.company-category
+          h3 Banking & Finance
+          p 600+ Jobs
+          div.company-logos
+        div.company-category
+          h3 Hospitality
+          p 400+ Jobs
+          div.company-logos
+        div.company-category
+          h3 Tech
+          p 900+ Jobs
+          div.company-logos
+        div.company-category
+          h3 Healthcare
+          p 300+ Jobs
+          div.company-logos
+        div.company-category
+          h3 Education
+          p 200+ Jobs
+          div.company-logos
+      div.scroll-button.right &gt;
+
+    // Script
+    script(src="./js/script.js") // Updated path to script.js
+
+    // Footer
+    footer
+      p &copy; 2024 [JobSwift]. All rights reserved.
+      p Contact us: 
+        a(href="mailto:JobSwift@company.com", style="color: white;") JobSwift@company.com
+        |  | Phone: (123) 456-7890
+      p Follow us on:
+      div.social-icons
+        a(href="https://www.facebook.com", target="_blank", style="color: white; margin: 0 10px; text-decoration: none; font-size: 20px;")
+          i.fab.fa-facebook
+        a(href="https://www.twitter.com", target="_blank", style="color: white; margin: 0 10px; text-decoration: none; font-size: 20px;")
+          i.fab.fa-twitter
+        a(href="https://www.linkedin.com", target="_blank", style="color: white; margin: 0 10px; text-decoration: none; font-size: 20px;")
+          i.fab.fa-linkedin

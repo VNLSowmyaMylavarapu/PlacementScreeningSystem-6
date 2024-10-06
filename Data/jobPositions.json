@@ -1,0 +1,42 @@
+[{
+  "_id": 5002,
+  "company_name": "DataSolutions",
+  "position_title": "Data Analyst",
+  "job_description": "Analyze and interpret complex datasets.",
+  "eligibility_criteria": {
+    "min_cgpa": 8,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Excel"
+    ]
+  },
+  "application_deadline": "2024-10-05",
+  "posted_date": "2024-09-10",
+  "salary_package": 10,
+  "job_type": "Fulltime",
+  "applicants": [
+    4001
+  ]
+},
+{
+  "_id": 5003,
+  "company_name": "AutoMechanics Ltd.",
+  "position_title": "Mechanical Engineer",
+  "job_description": "Design mechanical components and systems.",
+  "eligibility_criteria": {
+    "min_cgpa": 7,
+    "required_skills": [
+      "AutoCAD",
+      "SolidWorks",
+      "Mathematics"
+    ]
+  },
+  "application_deadline": "2024-09-25",
+  "posted_date": "2024-09-01",
+  "salary_package": 9,
+  "job_type": "Full-time",
+  "applicants": [
+    4002
+  ]
+}]

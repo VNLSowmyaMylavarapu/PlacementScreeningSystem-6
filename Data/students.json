@@ -1,0 +1,59 @@
+[{
+  "_id": 4002,
+  "name": "Pilli Deepika",
+  "email": "deepikap@gmail.com",
+  "phone_number": "789123456",
+  "department": "ECE",
+  "degree": "B.Tech",
+  "cgpa": 8,
+  "skills": [
+    "Java",
+    "Data Structures",
+    "Artificial Intelligence"
+  ],
+  "applied_positions": [
+    5001
+  ],
+  "status": "Notplaced",
+  "passwrod": "deepikap"
+},
+{
+  "_id": 4003,
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "phone_number": "912345678",
+  "department": "CSE",
+  "degree": "B.Tech",
+  "cgpa": 9,
+  "skills": [
+    "Python",
+    "Data Structures",
+    "Machine Learning"
+  ],
+  "applied_positions": [
+    5001,
+    5002
+  ],
+  "status": "placed",
+  "passwrod": "johndoe"
+},
+{
+  "_id": 4001,
+  "name": "Nandiraju Swetha",
+  "email": "swethan@gmail.com",
+  "phone_number": "891234567",
+  "department": "CSE",
+  "degree": "B.Tech",
+  "cgpa": 9,
+  "skills": [
+    "Python",
+    "Data Structures",
+    "Artificial Intelligence"
+  ],
+  "applied_positions": [
+    5002,
+    5004
+  ],
+  "status": "Notplaced",
+  "passwrod": "swethan"
+}]

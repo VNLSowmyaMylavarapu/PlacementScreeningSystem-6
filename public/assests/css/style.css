@@ -1,0 +1,148 @@
+/* Background image for the body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./assests/img/p.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Header styling */
+header {
+    background-color: rgba(47, 216, 242, 0.7);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Section styling */
+section {
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #17beed;
+    margin: 50px auto;
+    padding: 30px;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(47, 216, 242, 0.7);
+    text-align: center;
+}
+
+/* Styles for the top companies section */
+.top-companies {
+    display: flex;
+    align-items: center;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+}
+.top-companies h2 {
+    font-size: 24px; /* Adjust size as needed */
+    margin: 0 0 20px; /* No margin on top, space below */
+    text-align: center; /* Center align the heading */
+    color: #333; /* Change color as needed */
+    width: 100%; /* Ensure it takes the full width for centering */
+}
+
+
+.scroll-button {
+    cursor: pointer;
+    font-size: 24px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+.scroll-button:hover {
+    background-color: #0056b3;
+}
+
+.companies-container {
+    display: flex;
+    overflow-x: hidden; /* Enable horizontal scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    gap: 20px;
+    flex-grow: 1; /* Allow this section to grow */
+    padding: 10px;
+}
+.companies-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+.companies-container {
+    -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer and Edge */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+.company-category {
+    min-width: 200px; /* Set a minimum width for each category */
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    flex-shrink: 0; /* Prevent shrinking */
+    text-align: center; /* Center align text */
+}
+
+.company-category h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.company-category p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.company-logos {
+    display: flex;
+    justify-content: space-around; /* Space logos evenly */
+}
+
+.company-logos img {
+    width: 40px; /* Set a fixed width for logos */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Footer styling */
+footer {
+    background-color: rgba(4, 26, 95, 0.7);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+

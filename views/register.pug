@@ -1,0 +1,79 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Student Registration - Placement Screening System
+    link(rel="stylesheet", href="./assests/css/reg.css") // Link to your CSS
+  body
+    header
+      h1 Placement Screening System
+      nav
+        ul(style="list-style-type: none; padding: 0; margin: 10px 0 0 0; display: flex; justify-content: center;")
+          li(style="margin: 0 15px;")
+            a(href="./index.html", style="color: white; text-decoration: none; font-size: 18px;") Home
+          li(style="margin: 0 15px;")
+            a(href="./about.html", style="color: white; text-decoration: none; font-size: 18px;") About
+          li(style="margin: 0 15px;")
+            a(href="./dashboard.html", style="color: white; text-decoration: none; font-size: 18px;") Dashboard
+          li(style="margin: 0 15px;")
+            a(href="./contact.html", style="color: white; text-decoration: none; font-size: 18px;") Contact
+          li(style="margin: 0 15px;")
+            a(href="./login.html", style="color: white; text-decoration: none; font-size: 18px;")
+              i(class="fas fa-sign-in-alt") Login
+          li.dropdown(style="margin: 0 15px;")
+            a(href="#", class="dropbtn") Register
+            .dropdown-content
+              a(href="./company-registration.html") Company Registration
+              a(href="./student-registration.html") Student Registration
+
+    .registration-form
+      h2 Student Registration
+
+      form#studentRegistrationForm
+        label(for="name") Full Name:
+        input(type="text", id="name", name="name", required)
+
+        label(for="ID") Student Id:
+        input(type="text", id="ID", name="ID", required)
+
+        label(for="email") Email:
+        input(type="email", id="email", name="email", required)
+
+        label(for="phone") Phone Number:
+        input(type="tel", id="phone", name="phone", required)
+
+        label(for="department") Department:
+        input(type="text", id="department", name="department", required)
+
+        label(for="degree") Degree:
+        input(type="text", id="degree", name="degree", required)
+
+        label(for="cgpa") CGPA:
+        input(type="number", id="cgpa", name="cgpa", step="0.01", min="0", max="10", required)
+
+        label(for="skills") Skills (comma-separated):
+        input(type="text", id="skills", name="skills", required)
+
+        label(for="resume") Upload Resume (PDF only):
+        input(type="file", id="resume", name="resume", accept=".pdf", required)
+
+        button(type="submit") Register
+
+      p#successMessage(style="color: green; display: none;") Registration successful! Your details have been submitted.
+
+    footer
+      .footer-container
+        p &copy; 2024 [JobSwift]. All rights reserved.
+        p Contact us: 
+          a(href="mailto:info@company.com") JobSwift@company.com | Phone: (123) 456-7890
+        p Follow us on:
+        .social-icons
+          a(href="https://www.facebook.com", target="_blank")
+            i(class="fab fa-facebook")
+          a(href="https://www.twitter.com", target="_blank")
+            i(class="fab fa-twitter")
+          a(href="https://www.linkedin.com", target="_blank")
+            i(class="fab fa-linkedin")
+
+    script(src="./assests/js/register.js") // Link to your JS file
